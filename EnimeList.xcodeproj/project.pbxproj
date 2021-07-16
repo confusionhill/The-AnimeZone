@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF316819269C85A4001B306A /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF316818269C85A4001B306A /* Search.swift */; };
+		FF31681B269C85B1001B306A /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31681A269C85B1001B306A /* SearchViewModel.swift */; };
 		FF9FFC912699C25400012B33 /* EnimeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FFC902699C25400012B33 /* EnimeListApp.swift */; };
 		FF9FFC932699C25400012B33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FFC922699C25400012B33 /* ContentView.swift */; };
 		FF9FFC952699C25600012B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9FFC942699C25600012B33 /* Assets.xcassets */; };
 		FF9FFC982699C25600012B33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9FFC972699C25600012B33 /* Preview Assets.xcassets */; };
+		FF9FFCA32699CF1800012B33 /* AnimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FFCA22699CF1800012B33 /* AnimeViewModel.swift */; };
+		FF9FFCA52699CF8800012B33 /* AnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FFCA42699CF8800012B33 /* AnimeModel.swift */; };
+		FF9FFCA72699D1F600012B33 /* MainAnimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FFCA62699D1F600012B33 /* MainAnimeModel.swift */; };
+		FF9FFCA92699D3F500012B33 /* AnimeMainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9FFCA82699D3F500012B33 /* AnimeMainViewModel.swift */; };
+		FFE01479269DB16700CD6312 /* AnimeSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE01478269DB16600CD6312 /* AnimeSearchModel.swift */; };
+		FFF776712699EE34007A8559 /* extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF776702699EE34007A8559 /* extentions.swift */; };
+		FFF77673269ABBFC007A8559 /* ItemDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF77672269ABBFC007A8559 /* ItemDisplay.swift */; };
+		FFF77675269ABC2C007A8559 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF77674269ABC2C007A8559 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF316818269C85A4001B306A /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		FF31681A269C85B1001B306A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		FF9FFC8D2699C25400012B33 /* EnimeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnimeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9FFC902699C25400012B33 /* EnimeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnimeListApp.swift; sourceTree = "<group>"; };
 		FF9FFC922699C25400012B33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF9FFC942699C25600012B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF9FFC972699C25600012B33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FF9FFC992699C25600012B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF9FFCA22699CF1800012B33 /* AnimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeViewModel.swift; sourceTree = "<group>"; };
+		FF9FFCA42699CF8800012B33 /* AnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeModel.swift; sourceTree = "<group>"; };
+		FF9FFCA62699D1F600012B33 /* MainAnimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAnimeModel.swift; sourceTree = "<group>"; };
+		FF9FFCA82699D3F500012B33 /* AnimeMainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeMainViewModel.swift; sourceTree = "<group>"; };
+		FFE01478269DB16600CD6312 /* AnimeSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeSearchModel.swift; sourceTree = "<group>"; };
+		FFF776702699EE34007A8559 /* extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extentions.swift; sourceTree = "<group>"; };
+		FFF77672269ABBFC007A8559 /* ItemDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDisplay.swift; sourceTree = "<group>"; };
+		FFF77674269ABC2C007A8559 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				FF9FFC902699C25400012B33 /* EnimeListApp.swift */,
-				FF9FFC922699C25400012B33 /* ContentView.swift */,
+				FFF776702699EE34007A8559 /* extentions.swift */,
+				FFACD06D26A1AC340084D036 /* Controller */,
+				FF9FFCA12699C28300012B33 /* Model */,
+				FF9FFCA02699C27300012B33 /* ViewModel */,
+				FF9FFC9F2699C26E00012B33 /* View */,
 				FF9FFC942699C25600012B33 /* Assets.xcassets */,
 				FF9FFC992699C25600012B33 /* Info.plist */,
 				FF9FFC962699C25600012B33 /* Preview Content */,
@@ -67,6 +91,60 @@
 				FF9FFC972699C25600012B33 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF9FFC9F2699C26E00012B33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FFACD06F26A1AC510084D036 /* Home */,
+				FFACD07026A1AC5C0084D036 /* Display */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF9FFCA02699C27300012B33 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FFCA22699CF1800012B33 /* AnimeViewModel.swift */,
+				FF9FFCA82699D3F500012B33 /* AnimeMainViewModel.swift */,
+				FF31681A269C85B1001B306A /* SearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF9FFCA12699C28300012B33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FFCA42699CF8800012B33 /* AnimeModel.swift */,
+				FF9FFCA62699D1F600012B33 /* MainAnimeModel.swift */,
+				FFE01478269DB16600CD6312 /* AnimeSearchModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FFACD06D26A1AC340084D036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF9FFC922699C25400012B33 /* ContentView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FFACD06F26A1AC510084D036 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FFF77674269ABC2C007A8559 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FFACD07026A1AC5C0084D036 /* Display */ = {
+			isa = PBXGroup;
+			children = (
+				FF316818269C85A4001B306A /* Search.swift */,
+				FFF77672269ABBFC007A8559 /* ItemDisplay.swift */,
+			);
+			path = Display;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +216,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF31681B269C85B1001B306A /* SearchViewModel.swift in Sources */,
+				FFF77673269ABBFC007A8559 /* ItemDisplay.swift in Sources */,
+				FF9FFCA32699CF1800012B33 /* AnimeViewModel.swift in Sources */,
+				FF9FFCA72699D1F600012B33 /* MainAnimeModel.swift in Sources */,
+				FF9FFCA92699D3F500012B33 /* AnimeMainViewModel.swift in Sources */,
+				FFF77675269ABC2C007A8559 /* Home.swift in Sources */,
 				FF9FFC932699C25400012B33 /* ContentView.swift in Sources */,
+				FFF776712699EE34007A8559 /* extentions.swift in Sources */,
+				FF316819269C85A4001B306A /* Search.swift in Sources */,
+				FF9FFCA52699CF8800012B33 /* AnimeModel.swift in Sources */,
+				FFE01479269DB16700CD6312 /* AnimeSearchModel.swift in Sources */,
 				FF9FFC912699C25400012B33 /* EnimeListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
